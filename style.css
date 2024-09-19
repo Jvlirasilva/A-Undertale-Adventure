@@ -1,0 +1,10 @@
+body {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+  background-color: black;
+  color: rgb(250, 70, 0);
+  display: flex;
+  justify-content: center;
+}
