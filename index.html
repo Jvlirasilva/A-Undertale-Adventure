@@ -1,6 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
+
 <head>
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,47 +11,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Undertale Adventure</title>
+
 </head>
 
 <body>
+
     <main>
 
         <div class="passo ativo" id="passo-0">
             <p>O ano é 20XX. Em sua vila, há uma montanha que por muitos anos não é visitada. Você quer visitá-la?</p>
             <button class="btn-proximo" data-proximo="1">Sim</button>
-            <button class="btn-proximo" data-proximo="1">Não</button>
+            <button class="btn-proximo" data-proximo="2">Não</button>
         </div>
 
-        <div class="passo" id="passo-2"></div>
-            <p>Você decide não perder seu tempo. Muitos anos depois, você avista uma figura misteriosa carregando uma criança morta em seus braços.
-                Com ódio, você e todos do seu vilarejo decidem por aniquilar esta criatura. Fim?
-            </p>
-            <button class="btn-proximo" data-proximo="0">RESET</button>
-        </div>
-
-        <div class="passo" id="passo-1"></div>
+        <div class="passo" id="passo-1">
             <p>Andando ao redor da montanha, você nota um buraco profundo que, por descuido, acaba por cair dentro, e desmaia.
                 Ao acordar em uma cama de flores, você nota um caminho a seguir e, no final, uma sala
             </p>
             <button class="btn-proximo" data-proximo="3">Entrar</button>
         </div>
 
-        <div class="passo" id="passo-3"></div>
-            <p>Entrando nna sala, uma flor lhe recepciona. Conversando com a flor, ela se apresenta como Flowey, a flor.
+        <div class="passo" id="passo-2">
+            <p>Você decide não perder seu tempo. Muitos anos depois, você avista uma figura misteriosa carregando uma criança morta em seus braços.
+                Com ódio, você e todos do seu vilarejo decidem por aniquilar esta criatura. Fim?
+            </p>
+            <button class="btn-proximo" data-proximo="0">RESET</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Entrando na sala, uma flor lhe recepciona. Conversando com a flor, ela se apresenta como Flowey, a flor.
                 Ele quer te dar um pouco de LV (Love). Você aceita?
             </p>
             <button class="btn-proximo" data-proximo="4">Desviar</button>
             <button class="btn-proximo" data-proximo="5">Aceitar</button>
         </div>
 
-        <div class="passo" id="passo-5"></div>
-            <p>Ao seguir em direção ao "Love", você se machuca e morre. Flowey absorve sua alma e se transforma em Asriel Dreemurr, o Deus da morte.
-                Fim?
-            </p>
-            <button class="btn-proximo" data-proximo="0">RESET</button>
-        </div>
-
-        <div class="passo" id="passo-4"></div>
+        <div class="passo" id="passo-4">
             <p>Desviando, você é salvo por Toriel, a zeladora das ruinas. Ela te acolhe e leva você até a casa dela.
                 Depois de passar um tempo com ela, você começa a pensar em sua casa. Ao mesmo tempo, gosta da companhia de Toriel.
                 O que você quer fazer?
@@ -57,27 +55,34 @@
             <button class="btn-proximo" data-proximo="7">Ficar com ela</button>
         </div>
 
-        <div class="passo" id="passo-7"></div>
+        <div class="passo" id="passo-5">
+            <p>Ao seguir em direção ao "Love", você se machuca e morre. Flowey absorve sua alma e se transforma em Asriel Dreemurr, o Deus da morte.
+                Fim?
+            </p>
+            <button class="btn-proximo" data-proximo="0">RESET</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <p>Toriel tenta te impedir. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="8">Mercy</button>
+            <button class="btn-proximo" data-proximo="9">Fight</button>
+        </div>
+
+        <div class="passo" id="passo-7">
             <p>Você decide ficar com ela. Você passa seus dias com ela, lendo livros sobre caracóis, comendo torta de canela... com caracóis, contando histórias na lareira e cuidando das ruinas.
                 Apesar de estar feliz, você se pergunta o que pode acontecer se você sair das ruinas.
             </p>
             <button class="btn-proximo" data-proximo="6">Ir embora</button>
         </div>
 
-        <div class="passo" id="passo-6"></div>
-            <p>Toriel tenta te impedir. O que você faz?</p>
-            <button class="btn-proximo" data-proximo="8">Mercy</button>
-            <button class="btn-proximo" data-proximo="9">Fight</button>
-        </div>
-
-        <div class="passo" id="passo-8"></div>
+        <div class="passo" id="passo-8">
             <p>Você não causa nenhum mas a Toriel, poupando ela. Ela deixa você sair das ruinas, mas pede para você não voltar mais. A partir disso, você inicia sua aventura pelo subterrâneo.
                 No final de tudo, você enfrenta Asriel Dreemurr, o Deus da morte. Vencendo, você liberta todos os monstros do subterrâneo. Fim?
             </p>
             <button class="btn-proximo" data-proximo="0">RESET</button>
         </div>
 
-        <div class="passo" id="passo-9"></div>
+        <div class="passo" id="passo-9">
             <p>Você mata Toriel a sangue frio sem piedade. Você já possuía essa tendência assasina, matando todos nas ruinas. Agora, saindo das ruinas, você pode continuar a sua chacina.
                 No final, depois de matar todos e derrotando Asgore, o rei do subterrâneo, você absorve as 6 almas restantes e vai embora do subterrâneo. Fim?
             </p>
@@ -85,7 +90,9 @@
         </div>
 
     </main>
+
     <script src="script.js"></script>
+
 </body>
 
 </html>
